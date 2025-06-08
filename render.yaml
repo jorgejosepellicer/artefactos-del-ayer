@@ -3,7 +3,8 @@ services:
     name: artefactos-del-ayer
     env: node
     buildCommand: |
+      cd frontend
       npm install -g @angular/cli
       npm install
       ng build --configuration production
-    staticPublishPath: dist/artefactos-del-ayer
+    staticPublishPath: frontend/dist/artefactos-del-ayer
