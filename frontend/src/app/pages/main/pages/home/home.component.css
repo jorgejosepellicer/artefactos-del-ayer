@@ -1,0 +1,29 @@
+app-aside-categories {
+    width: 30rem;
+    height: 100%;
+    float: left;
+    display: flex;
+    background-color: var(--beige);
+}
+
+app-search-bar {
+    width: 100%;
+}
+
+.products-content {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-list {
+    padding: 2.5rem;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    overflow-y: auto;
+}

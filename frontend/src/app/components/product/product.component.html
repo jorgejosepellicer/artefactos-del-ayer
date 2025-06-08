@@ -1,0 +1,25 @@
+<div class="card" 
+    (click)="router.navigate(['/main/product', producto.id_producto])"
+    [ngClass]="{ 'finished': producto.finalizado }"
+>
+    <div 
+        class="img"
+        [ngClass]="{ 'no-image': productImages.length === 0 }"
+        [style.background-image]="safeImageUrl">
+    </div>
+          
+    <h2 class="title">{{producto.nombre}}</h2>
+
+    <p [ngClass]="{
+      'winner-price': maxBid?.id_usuario === user?.id_usuario,
+      'loser-price': userHasBid && maxBid?.id_usuario !== user?.id_usuario
+    }">
+        {{ actualPrice$ | async | currency:'EUR' }}
+    </p>
+
+    @if(userHasBid && maxBid?.id_usuario !== user?.id_usuario) {
+        <p class="bid-info">Tu puja actualmente es de: {{userBid?.precio}} $</p>
+    }
+
+    <p class="end_date">Acaba el {{producto.fecha_fin}}</p>
+</div>

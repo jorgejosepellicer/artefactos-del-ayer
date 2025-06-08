@@ -1,0 +1,14 @@
+.bid-target {
+    height: 10rem;
+    max-width: 100%;
+    padding: 0.5rem;
+    background-color: var(--beige);
+    border-bottom: 1px solid var(--marron);
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 1.5rem;
+}

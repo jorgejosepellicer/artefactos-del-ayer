@@ -1,0 +1,43 @@
+header {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, var(--crema) 100%),
+        url('../../../assets/fondo-intro.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 50%;
+    height: 50%;
+    background-color: var(--negro-transparente);
+    box-shadow: 0px 0px 2vh 1vh var(--sombra-negra);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vh;
+}
+
+section {
+    margin: 0;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+app-login {
+    width: 30%;
+    height: 50%;
+    padding: 5vh;
+    background-color: var(--blanco-transparente);
+    box-shadow: 0px 0px 2vh 1vh var(--sombra-blanca);
+    border-radius: 5vh;
+}

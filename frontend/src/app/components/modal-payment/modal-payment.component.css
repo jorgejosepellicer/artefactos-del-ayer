@@ -1,0 +1,24 @@
+.modal-mask {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--negro-transparente);
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    height: 20rem;
+    width: 30rem;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

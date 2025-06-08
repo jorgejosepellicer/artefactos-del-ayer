@@ -1,0 +1,260 @@
+
+:root {
+  /* Colores principales */
+  --crema: #f4e1c1;
+  --beige: #e0c9a6;
+  --marron: #8b5e3c;
+  --marron-oscuro: #49311f;
+  --verde-oliva: #7a8450;
+  --azul-petroleo: #3a536b;
+  --burdeos: #8a3b3b;
+
+  /* Colores secundarios */
+  --dorado: #c9a66b;
+  --salmon: #d99583;
+  --gris-antiguo: #b0a49b;
+  --lavanda-apagado: #a496a4;
+
+  /* Sombras y detalles */
+  --sombra-negra: rgba(0, 0, 0, 0.5);
+  --sombra-blanca: rgba(255, 255, 255, 0.5);
+  --borde: rgba(0, 0, 0, 0.1);
+
+  /* Fondos transparentes */
+  --negro-transparente: rgba(0, 0, 0, 0.514);
+  --blanco-transparente: rgba(255, 255, 255, 0.7);
+  --rojo-transparente: rgba(255, 0, 0, 0.267);
+
+  /* Tipografía */
+  --texto: #5a4a42;
+  --texto-claro: #fffaf0;
+  --texto-destacado: var(--burdeos);
+
+  /* Botones */
+  --verde: rgb(0, 187, 0);
+  --verde-claro: rgb(181, 255, 181);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* Normal scroll por defecto */
+  /* Ocultar scroll */
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body {
+  background-color: var(--crema);
+}
+
+body.no-scroll {
+  overflow: hidden; /* Se activa cuando el aside de categorías está abierto */
+  position: fixed;
+  width: 100%;
+}
+
+/* Tamaño de letras */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+b {
+  font-size: 1.2rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+
+/* ---Formularios--- */
+input, textarea, select {
+  font-size: 1.2rem;
+  height: 1.7rem;
+}
+
+form {
+  width: 100%;
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+
+input[type="submit"] {
+  height: 2.5rem;
+  background-color: transparent; /* tono beige suave */
+  border: 2px solid var(--marron); /* marrón claro envejecido */
+  border-radius: 12px;
+  margin-top: 2.5rem;
+  color: #5e4322;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--beige); /* beige más oscuro */
+  border-color: var(--marron-oscuro);
+  color: #3f2a14;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.register {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: center;
+  gap: 0.5vh;
+
+  & .link {
+      cursor: pointer;
+      color: blue;
+  }
+}
+/* ---Botones--- */
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4rem;
+  font-size: 1rem;
+  background-color: transparent;
+  box-shadow: 0px 0px 0.5rem 0.1rem var(--sombra-negra);
+  cursor: pointer;
+}
+
+.close-button {
+  border: 3px solid red;
+  height: 1.5rem;
+  width: 1.5rem;
+  background: url("./assets/cruz-borrar.png") center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+/* ---Tipografías--- */
+/* títulos */
+h1, h2, h3, .titulo {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.5px;
+}
+
+/* cuerpo del texto */
+body, p, li {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* formularios */
+input, 
+textarea, 
+select {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100%;
+}
+
+app-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+app-product-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+app-usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+app-product-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+app-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+app-admin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+app-user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+app-user-bids {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+app-users {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
+app-create-user {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+

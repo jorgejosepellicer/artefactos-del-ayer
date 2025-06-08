@@ -1,0 +1,42 @@
+<form #usuarioForm="ngForm" (ngSubmit)="register(usuario)">
+  <h2>Regístrate</h2>
+
+  <!-- Nombre -->
+  <label for="nombre">Nombre:</label>
+  <input type="text" name="nombre" [(ngModel)]="usuario.nombre" #nombre="ngModel" required>
+  <app-error-message *ngIf="nombre.invalid && nombre.touched" text="El nombre es obligatorio."></app-error-message>
+
+  <!-- Primer Apellido -->
+  <label for="primer-apellido">Primer apellido:</label>
+  <input type="text" name="primer-apellido" [(ngModel)]="usuario.apellido1" #apellido1="ngModel" required>
+  <app-error-message *ngIf="apellido1.invalid && apellido1.touched" text="El primer apellido es obligatorio."></app-error-message>
+
+  <!-- Segundo Apellido -->
+  <label for="segundo-apellido">Segundo apellido:</label>
+  <input type="text" name="segundo-apellido" [(ngModel)]="usuario.apellido2">
+
+  <!-- Nickname -->
+  <label for="nickname">Nickname:</label>
+  <input type="text" name="nickname" [(ngModel)]="usuario.nickname" #nickname="ngModel" required>
+  <app-error-message *ngIf="nickname.invalid && nickname.touched" text="El nickname es obligatorio."></app-error-message>
+
+  <!-- Contraseña -->
+  <label for="contrasenya">Contraseña:</label>
+  <input type="password" name="contrasenya" [(ngModel)]="usuario.password" #password="ngModel" required minlength="6">
+  <app-error-message *ngIf="password.invalid && password.touched && password.errors?.['required']" text="La contraseña es obligatoria."></app-error-message>
+  <app-error-message *ngIf="password.invalid && password.touched && password.errors?.['minlength']" text="La contraseña debe tener al menos 6 caracteres."></app-error-message>
+
+  <!-- Email -->
+  <label for="email">Email:</label>
+  <input type="email" name="email" [(ngModel)]="usuario.email" #email="ngModel" required email>
+  <app-error-message *ngIf="email.invalid && email.touched && email.errors?.['required']" text="El email es obligatorio."></app-error-message>
+  <app-error-message *ngIf="email.invalid && email.touched && email.errors?.['email']" text="Formato de email inválido."></app-error-message>
+
+  <!-- Teléfono -->
+  <label for="telefono">Teléfono:</label>
+  <input type="number" name="telefono" [(ngModel)]="usuario.telefono" #telefono="ngModel" required min="100000000">
+  <app-error-message *ngIf="telefono.invalid && telefono.touched && telefono.errors?.['required']" text="El teléfono es obligatorio."></app-error-message>
+  <app-error-message *ngIf="telefono.invalid && telefono.touched && telefono.errors?.['min']" text="Debe tener al menos 9 cifras."></app-error-message>
+
+  <input type="submit" value="Confirmar" [disabled]="usuarioForm.invalid">
+</form>

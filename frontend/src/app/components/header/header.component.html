@@ -1,0 +1,13 @@
+<header>
+    <div class="header-content">
+        <div class="logo" (click)="this.router.navigate(['main/home'])"></div>
+        <h2>Bienvenido, {{user?.nickname}}</h2>
+        <div class="profile-info">
+            <div class="carrito" (click)="this.router.navigate(['/main/cart/winning-bids'])"></div>
+            <div class="profile" (click)="this.router.navigate(['/main/profile/info'])"></div>    
+        </div>    
+    </div>
+    <app-navbar></app-navbar>
+</header>
+
+<app-aside-categories></app-aside-categories>

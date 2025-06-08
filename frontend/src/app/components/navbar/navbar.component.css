@@ -1,0 +1,32 @@
+nav {
+    height: 2.5rem;
+    border-top: 0.1rem solid var(--marron-oscuro);
+    border-bottom: 0.1rem solid var(--marron-oscuro);
+    display: flex;
+    justify-content: center;
+    /* centro por defecto */
+    align-items: center;
+    position: relative;
+}
+
+.nav-left {
+    position: absolute;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.categories {
+    height: 2rem;
+    width: 2rem;
+    background: url("../../../assets/categorias.png") center center no-repeat;
+    background-size: cover;
+    border-radius: 7rem;
+    cursor: pointer;
+}
+
+.admin-link {
+    cursor: pointer;
+    font-weight: bold;
+    color: blue
+}

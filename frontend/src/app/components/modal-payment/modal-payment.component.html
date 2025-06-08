@@ -1,0 +1,31 @@
+@if (actualPrice$ | async) {
+    <div class="modal-mask">
+        <div class="modal-content">
+            <div class="modal-header">
+                <app-close-button (click)="closeModal()"></app-close-button>
+            </div>
+
+            <div class="modal-body">
+                <div class="product-info">
+                    <h2>{{ product?.nombre }}</h2>
+                    <p>{{ product?.descripcion }}</p>
+                    <p>{{ actualPrice$ | async | currency:'EUR' }}</p>
+                </div>
+
+                <form (ngSubmit)="enviarPuja()">
+                    <label for="monto">Tu oferta:</label>
+                    <input type="number" id="monto" [(ngModel)]="montoPuja" name="monto" required [min]="actualPrice$ | async" />
+                    <button type="submit">Confirmar puja</button>
+                </form>
+
+                @if (mensajeError) {
+                <div class="error-msg">
+                    {{ mensajeError }}
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+} @else {
+    <div class="loading-message">Cargando precio actual...</div>
+}

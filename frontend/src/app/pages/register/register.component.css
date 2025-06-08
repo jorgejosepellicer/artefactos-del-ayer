@@ -1,0 +1,26 @@
+form {
+    margin-top: 10vh;
+    width: 50%;
+    height: 50%;
+    padding: 5vh;
+    background-color: var(--blanco-transparente);
+    box-shadow: 0px 0px 2vh 1vh var(--sombra-blanca);
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+label {
+    font-size: 2vh;
+}
+
+input {
+    margin-bottom: 1vh;
+}
+

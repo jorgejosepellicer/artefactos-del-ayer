@@ -1,0 +1,42 @@
+.user-header {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    background: url("../../.../../../../../../../assets/no-profile.webp") center center no-repeat;
+    background-size: cover;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.option {
+    height: 30rem;
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.option:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0.5rem 1.5rem var(--negro-transparente);
+}

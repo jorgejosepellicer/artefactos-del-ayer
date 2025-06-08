@@ -1,0 +1,7 @@
+main {
+    flex: 1;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.5rem; /* Para que el header no se sobreponga a los elementos */
+}

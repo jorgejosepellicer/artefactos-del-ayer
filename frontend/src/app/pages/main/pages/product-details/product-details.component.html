@@ -1,0 +1,44 @@
+<div class="product-info">
+    @if(product) {
+      <div class="product-container">
+      <div 
+        class="img"
+        [ngClass]="{ 'no-image': productImages.length === 0 }"
+        [style.background-image]="safeImageUrl">
+      </div>
+  
+        <h2>{{ actualPrice$ | async | currency:'EUR' }}</h2>
+        <h3>{{ product.nombre }}</h3>
+        <p>{{ product.descripcion }}</p>
+      </div>
+  
+      <app-product-footer
+        [product]="product"
+        [actualPrice$]="actualPrice$"
+        (openPaymentModalEvent)="openPaymentModal($event)"
+        (openCommonModalEvent)="openCommonModal($event)"
+      ></app-product-footer>
+    } @else {
+      <h2>No hay productos con esa ID</h2>
+    }
+  </div>
+  
+  <!-- Modal de pago -->
+  @if(sharedService.paymentModalSubject.getValue().show) {
+    <app-modal-payment
+      [actualPrice$]="actualPrice$"
+      [product]="product"
+      (closeModalPayment)="sharedService.updatePaymentModal('', $event)"
+      (confirm)="confirmPayment($event)"
+    ></app-modal-payment>
+  }
+  
+  <!-- Modal común -->
+  @if(sharedService.commonModalSubject.getValue().show) {
+    <app-modal
+      [text]="sharedService.commonModalSubject.getValue().text"
+      (clickCloseButton)="sharedService.updateCommonModal('', false)"
+      (accept)="acceptModal()"
+    ></app-modal>
+  }
+  

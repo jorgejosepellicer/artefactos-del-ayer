@@ -1,0 +1,12 @@
+.error {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3rem;
+    width: 100%;
+    background-color: var(--rojo-transparente);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    position: relative;
+}

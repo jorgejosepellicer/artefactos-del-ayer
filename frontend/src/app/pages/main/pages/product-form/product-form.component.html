@@ -1,0 +1,41 @@
+@if(productForm && isValid) {
+    <div class="form-container">
+        <h2>{{ isEditMode ? 'Editar Producto' : 'Nuevo Producto' }}</h2>
+    
+        <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+            <input type="file" (change)="capturarFile($event)">
+            @if(imagenPrevisualizada) {
+              <div>
+                  <img [src]="imagenPrevisualizada" alt="Previsualización" width="100%">
+              </div>
+            }            
+
+            <label>Nombre:</label>
+            <input formControlName="nombre" type="text" required />
+    
+            <label>Descripción:</label>
+            <textarea formControlName="descripcion" required></textarea>
+
+            @if(!isEditMode) {
+              <label for="precio_inicial">Precio inicial</label>
+              <input type="number" id="precio_inicial" formControlName="precio_inicial" step="0.01" min="0">            
+            }
+            
+            <label>Fecha de fin:</label>
+            <input formControlName="fecha_fin" type="datetime-local" required />
+                    
+            <label>Subcategoría:</label>
+            <select formControlName="id_subcategoria" required>
+              <option value="" disabled selected>Selecciona una subcategoría</option>
+              <option *ngFor="let subcat of subcategories" [value]="subcat.id_subcategoria">
+                {{ subcat.nombre }}
+              </option>
+            </select>
+                
+            <input type="submit" [value]="isEditMode ? 'Actualizar' : 'Crear'" />
+        </form>
+    </div>
+} @else {
+    <h2>No se han encontrado productos.</h2>
+}
+

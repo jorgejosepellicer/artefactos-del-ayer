@@ -1,0 +1,18 @@
+@if(user) {
+    <div class="user-header">
+        <div class="profile"></div>
+        <div class="user-info">
+            <h2>{{user.nombre}}</h2>
+            <h3>{{user.email}}</h3>    
+        </div>
+    </div>
+    <div class="options-container">
+        <div class="option" (click)="router.navigate(['main/admin/products', user.id_usuario])">
+            <h2>Ver productos</h2>
+        </div>
+        <div class="option" (click)="router.navigate(['main/admin/bids', user.id_usuario])">
+            <h2>Ver pujas</h2>
+        </div>    
+    </div>
+
+}

@@ -1,0 +1,24 @@
+<form #usuarioForm="ngForm" (ngSubmit)="login()">
+  <h2>Inicia sesión</h2>
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" [(ngModel)]="email" required #emailRef="ngModel">
+  <div *ngIf="emailRef.invalid && emailRef.touched" class="error">Email válido requerido.</div>
+
+  <label for="password">Contraseña:</label>
+  <input type="password" name="password" [(ngModel)]="password" required #passRef="ngModel">
+  <div *ngIf="passRef.invalid && passRef.touched" class="error">Contraseña requerida.</div>
+
+  <input type="submit" value="Confirmar" [disabled]="usuarioForm.invalid">
+
+  @if(errorMessage) {
+    <app-error-message
+        [text]="errorMessage"
+    ></app-error-message>
+  }
+
+  <div class="register">
+    <p>¿No tienes cuenta?</p>
+    <p class="link" (click)="router.navigate(['/register'])">Regístrate aquí</p>
+  </div>
+</form>

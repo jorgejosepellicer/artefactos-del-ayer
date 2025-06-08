@@ -1,0 +1,21 @@
+<div class="container">
+    <button (click)="router.navigate(['main/admin/user-form'])">Crer nuevo usuario</button>
+
+    <div class="users-container">
+        @for(user of usersList; track user.id_usuario) {
+            <app-user-target
+                [user]="user"
+                (clickDelete)="handleClickDelete($event)"
+            ></app-user-target>    
+        }
+    </div>    
+</div>
+
+<!-- Modal común -->
+@if(sharedService.commonModalSubject.getValue().show) {
+    <app-modal 
+        [text]="sharedService.commonModalSubject.getValue().text"
+        (clickCloseButton)="sharedService.updateCommonModal('', false)" 
+        (accept)="acceptModal()"
+    ></app-modal>
+}    

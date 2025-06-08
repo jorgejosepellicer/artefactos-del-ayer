@@ -1,0 +1,11 @@
+<div class="losing-bids-container">
+    <div class="products-container">
+        @if(arrayProductosPerdidos && arrayProductosPerdidos.length === 0) {
+            <h2>¡Vaya! Parece que no vas perdiendo ninguna puja.</h2>
+        } @else {
+            @for(product of arrayProductosPerdidos; track product.id_producto) {
+                <app-product [producto]="product"></app-product>
+            }    
+        }
+    </div>
+</div>    

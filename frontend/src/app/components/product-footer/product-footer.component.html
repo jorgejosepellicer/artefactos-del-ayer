@@ -1,0 +1,17 @@
+<div class="product-footer-actions">
+  <!-- Botones siempre visibles para admin o dueño -->
+  @if (isOwner() || isAdmin()) {
+    <button (click)="openDeleteModal('deleteProduct')">Eliminar producto</button>
+    <button (click)="handleEditProduct()">Editar producto</button>
+  }
+
+  <!-- Lógica de pujas solo si NO es dueño (o si es admin que quiere pujar) -->
+  @if (!isOwner()) {
+    @if (isBidding$ | async) {
+      <button (click)="openPaymentModal('editBid')">Editar puja</button>
+      <button (click)="openDeleteModal('deleteBid')">Eliminar puja</button>
+    } @else {
+      <button (click)="openPaymentModal('addBid')">Pujar</button>
+    }
+  }
+</div>

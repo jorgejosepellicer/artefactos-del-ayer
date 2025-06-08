@@ -1,0 +1,19 @@
+.user-products-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.products-container {
+    max-width: 80rem;
+    padding: 2rem;
+    margin: 2rem 0 5rem 0;
+    gap: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+.winning-bids-container {
+    display: flex;
+    justify-content: center;
+}
+
+.products-container {
+    max-width: 80rem;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}

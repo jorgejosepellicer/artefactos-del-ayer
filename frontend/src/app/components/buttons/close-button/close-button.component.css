@@ -1,0 +1,13 @@
+.close-button {
+    height: 1.5rem;
+    width: 1.5rem;
+    background: url("../../../../assets/cruz-borrar.png") center center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    background-color: transparent;
+}

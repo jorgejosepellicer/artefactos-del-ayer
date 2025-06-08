@@ -1,0 +1,26 @@
+<form #usuarioForm="ngForm" (ngSubmit)="register(usuario)">
+    <h2>Crear nuevo usuario</h2>
+
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" [(ngModel)]="usuario.nombre" required>
+
+    <label for="primer-apellido">Primer apellido: </label>
+    <input type="text" name="primer-apellido" [(ngModel)]="usuario.apellido1" required>
+
+    <label for="segundo-apellido">Segundo apellido: </label>
+    <input type="text" name="segundo-apellido" [(ngModel)]="usuario.apellido2">
+
+    <label for="nickname">Nickname: </label>
+    <input type="text" name="nickname" [(ngModel)]="usuario.nickname" required>
+
+    <label for="contrasenya">Contraseña: </label>
+    <input type="password" name="contrasenya" [(ngModel)]="usuario.password" required>
+
+    <label for="email">Email: </label>
+    <input type="email" name="email" [(ngModel)]="usuario.email" required>
+
+    <label for="telefono">Teléfono: </label>
+    <input type="number" name="telefono" [(ngModel)]="usuario.telefono" required>
+
+    <input type="submit" value="Confirmar" [disabled]="usuarioForm.invalid">
+</form>

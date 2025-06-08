@@ -1,0 +1,62 @@
+p {
+    gap: 0.5rem;
+}
+
+.card {
+    width: 15rem;
+    padding: 1rem;
+    background-color: var(--blanco-transparente);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    z-index: 1;
+}
+
+.finished {
+    background-color: var(--rojo-transparente);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    height: 15rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.no-image {
+    background-image: url("../../../assets/no-product-photo.jpg");
+}
+
+.title {
+    margin: 0;
+}
+
+.end_date {
+    align-self: first baseline;
+}
+
+.winner-price {
+    color: var(--verde);
+}
+
+.loser-price {
+    color: red;
+}
+
+.bid-info {
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+

@@ -1,0 +1,17 @@
+@if(visible) {
+    <div class="categories-mask">
+        <aside class="categories-aside">
+            <app-close-button
+            (click)="closeCategories()"
+            ></app-close-button>
+            @for (categoria of this.categorias; track categoria.id_categoria) {
+                <app-categories 
+                    [categoria]="categoria" 
+                    [categoriasSeleccionadas]="categoriasSeleccionadas"
+                    (categoriaSeleccionada)="toggleSelectedCategories($event)"
+                    (selectedSubcategoria)="onSubcategoriaClick($event)"
+                ></app-categories>
+            }
+        </aside>
+    </div>    
+}

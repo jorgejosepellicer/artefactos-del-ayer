@@ -1,0 +1,10 @@
+<p (click)="onCategoriaClick()"> {{categoria.nombre}} </p>
+
+@if(!categoriasSeleccionadas.includes(categoria.id_categoria)) {
+    @for (subcategoria of this.subcategorias; track subcategoria.id_subcategoria) {
+        <app-subcategories 
+            [subcategoria]="subcategoria"
+            (selectedSubcategoria)="onSubcategoriaClick($event)">
+        </app-subcategories>
+    }
+}

@@ -1,0 +1,13 @@
+<div class="user-target">
+    <div class="user">
+        <div class="profile" (click)="router.navigate(['main/admin/user', user.id_usuario])"></div>
+        <div class="info">
+            <h2>{{user.nombre}}</h2>
+            <p>{{user.email}}</p>
+        </div>    
+    </div>
+    <div class="actions">
+        <button (click)="router.navigate(['main/admin/user-form', user.id_usuario])">Edit</button>
+        <button (click)="deleteClicked()">Delete</button>
+    </div>
+</div>

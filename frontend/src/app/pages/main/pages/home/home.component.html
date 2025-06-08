@@ -1,0 +1,15 @@
+<div class="products-content">
+    <app-search-bar (buscar)="filterProducts($event)"></app-search-bar>
+    @if(selectedSubcategory) {
+        <app-selected-category
+            [categoryName]="selectedSubcategory.nombre"
+        ></app-selected-category>
+    }
+    <section class="products-list">
+        @for(product of filteredProductsList; track product.id_producto) {
+            <app-product
+                [producto]="product">
+            </app-product>
+        }
+    </section>
+</div>

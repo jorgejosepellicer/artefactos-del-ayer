@@ -1,0 +1,25 @@
+.user-target {
+    height: 10rem;
+    max-width: 100%;
+    padding: 0.5rem;
+    background-color: var(--beige);
+    border-bottom: 1px solid var(--marron);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile {
+    background: url("../../../assets/no-profile.webp") center center no-repeat;
+    background-size: cover;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}

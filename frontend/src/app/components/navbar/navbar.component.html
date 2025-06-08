@@ -1,0 +1,11 @@
+<nav>
+    <div class="nav-left">
+        <div (click)="toggleCategories()" class="categories"></div>
+    </div>
+
+    <div class="nav-center">
+        @if (canActivate()) {
+            <p class="admin-link" (click)="router.navigate(['main/admin/users'])">Ver panel de administración</p>
+        }
+    </div>
+</nav>

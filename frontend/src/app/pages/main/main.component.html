@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+@if(isLoading()) {
+    <app-spinner></app-spinner>
+}
+
+<app-footer></app-footer>

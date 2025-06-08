@@ -1,0 +1,40 @@
+<h2>Información de Usuario</h2>
+@if(userForm) {
+  <form [formGroup]="userForm">
+    <label>Nombre:</label>
+    <input formControlName="nombre" type="text" />
+    <label>Primer apellido:</label>
+    <input formControlName="apellido1" type="text" />
+    <label>Segundo Apellido:</label>
+    <input formControlName="apellido2" type="text" />
+    <label>Email:</label>
+    <input formControlName="email" type="email" />
+    <label>Teléfono:</label>
+    <input formControlName="telefono" type="text" />
+  </form>  
+}
+
+<h2>Detalles de Facturación</h2>
+@if(facturacionForm) {
+  <form [formGroup]="facturacionForm">
+    <label>Dirección:</label>
+    <input formControlName="direccion" type="text" />
+    <label>Ciudad:</label>
+    <input formControlName="ciudad" type="text" />
+    <label>Provincia:</label>
+    <input formControlName="provincia" type="text" />
+    <label>Código Postal:</label>
+    <input formControlName="codigo_postal" type="text" />
+    <label>País:</label>
+    <input formControlName="pais" type="text" />
+    <label>NIF/CIF:</label>
+    <input formControlName="nif_cif" type="text" />
+  </form>  
+}
+
+@if(facturacionForm && userForm) {
+  <button 
+    (click)="guardarCambios()"
+  > Guardar Cambios
+  </button>
+}

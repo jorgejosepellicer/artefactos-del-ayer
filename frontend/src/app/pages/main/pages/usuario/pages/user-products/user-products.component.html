@@ -1,0 +1,16 @@
+<div class="user-products-content">
+    @if(!this.id) {
+        <button (click)="router.navigate(['main/product-form'])">Añadir producto</button>
+    }
+    
+    <div class="products-container">
+        @if(listaProductos.length === 0) {
+            <h2>Todavía no tienes nngún producto en subasta.</h2>
+        } @else {
+            @for(product of listaProductos; track product.id_producto) {
+                <app-product [producto]="product"></app-product>
+            }    
+        }
+    </div>
+</div>
+

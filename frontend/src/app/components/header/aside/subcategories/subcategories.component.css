@@ -1,0 +1,13 @@
+p {
+    width: max-content;
+    font-size: 17px;
+    color: var(--texto);
+}
+.sub-container {
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.sub-container:hover {
+    background-color: var(--dorado);
+}

@@ -1,0 +1,20 @@
+<div class="bids-info">
+    <div class="bids-container">
+        @for(puja of listaPujas; track puja.id_puja) {
+            <app-bid-target
+                [puja]="puja"
+                (clickDelete)="handleClickDelete($event)"
+            ></app-bid-target>
+        }
+    </div>
+</div>
+
+<!-- Modal común -->
+@if(sharedService.commonModalSubject.getValue().show) {
+    <app-modal 
+        [text]="sharedService.commonModalSubject.getValue().text"
+        (clickCloseButton)="sharedService.updateCommonModal('', false)" 
+        (accept)="acceptModal()">
+    </app-modal>
+}    
+
