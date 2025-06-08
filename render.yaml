@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: artefactos-del-ayer
+    env: node
+    buildCommand: |
+      npm install -g @angular/cli
+      npm install
+      ng build --configuration production
+    staticPublishPath: dist/artefactos-del-ayer
