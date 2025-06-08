@@ -1,0 +1,413 @@
+nohup: ignoring input
+[Sun Jun  8 15:40:52 2025] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41580 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41580 [200]: GET /api.php/usuarios?filter=email,eq,jorgitopspellicer@gmail.com
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41580 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41582 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41588 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41582 [200]: GET /api.php/productos/
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41582 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41588 [200]: GET /api.php/categorias
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41588 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41594 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41596 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41608 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41614 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41616 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41624 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41594 [200]: GET /api.php/imagenes?filter=id_producto,eq,1
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41594 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41596 [200]: GET /api.php/pujas/?filter=id_producto,eq,1
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41596 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41608 [200]: GET /api.php/pujas?filter=id_producto,eq,1
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41608 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41614 [200]: GET /api.php/imagenes?filter=id_producto,eq,2
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41614 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41616 [200]: GET /api.php/pujas/?filter=id_producto,eq,2
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41616 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41624 [200]: GET /api.php/pujas?filter=id_producto,eq,2
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41624 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41638 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41640 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41638 [200]: GET /api.php/imagenes?filter=id_producto,eq,3
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41638 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41654 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41640 [200]: GET /api.php/pujas/?filter=id_producto,eq,3
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41640 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41660 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41654 [200]: GET /api.php/pujas?filter=id_producto,eq,3
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41654 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41666 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41660 [200]: GET /api.php/imagenes?filter=id_producto,eq,4
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41660 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41670 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41666 [200]: GET /api.php/pujas/?filter=id_producto,eq,4
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41666 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41684 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41670 [200]: GET /api.php/pujas?filter=id_producto,eq,4
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41670 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41696 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41684 [200]: GET /api.php/imagenes?filter=id_producto,eq,5
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41684 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41698 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41696 [200]: GET /api.php/pujas/?filter=id_producto,eq,5
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41696 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41702 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41698 [200]: GET /api.php/pujas?filter=id_producto,eq,5
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41698 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41708 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41702 [200]: GET /api.php/imagenes?filter=id_producto,eq,6
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41702 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41722 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41708 [200]: GET /api.php/pujas/?filter=id_producto,eq,6
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41708 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41726 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41722 [200]: GET /api.php/pujas?filter=id_producto,eq,6
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41722 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41734 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41726 [200]: GET /api.php/imagenes?filter=id_producto,eq,7
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41726 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41742 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41734 [200]: GET /api.php/pujas/?filter=id_producto,eq,7
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41734 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41752 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41742 [200]: GET /api.php/pujas?filter=id_producto,eq,7
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41742 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41766 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41752 [200]: GET /api.php/imagenes?filter=id_producto,eq,8
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41752 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41776 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41766 [200]: GET /api.php/pujas/?filter=id_producto,eq,8
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41766 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41778 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41776 [200]: GET /api.php/pujas?filter=id_producto,eq,8
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41776 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41782 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41778 [200]: GET /api.php/imagenes?filter=id_producto,eq,9
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41778 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41792 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41782 [200]: GET /api.php/pujas/?filter=id_producto,eq,9
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41782 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41802 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41792 [200]: GET /api.php/pujas?filter=id_producto,eq,9
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41792 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41804 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41802 [200]: GET /api.php/imagenes?filter=id_producto,eq,10
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41802 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41808 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41804 [200]: GET /api.php/pujas/?filter=id_producto,eq,10
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41804 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41822 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41808 [200]: GET /api.php/pujas?filter=id_producto,eq,10
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41808 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41830 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41822 [200]: GET /api.php/imagenes?filter=id_producto,eq,11
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41822 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41844 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41830 [200]: GET /api.php/pujas/?filter=id_producto,eq,11
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41830 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41846 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41844 [200]: GET /api.php/pujas?filter=id_producto,eq,11
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41844 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41860 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41846 [200]: GET /api.php/imagenes?filter=id_producto,eq,12
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41846 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41876 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41860 [200]: GET /api.php/pujas/?filter=id_producto,eq,12
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41860 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41886 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41876 [200]: GET /api.php/pujas?filter=id_producto,eq,12
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41876 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41894 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41886 [200]: GET /api.php/imagenes?filter=id_producto,eq,13
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41886 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41900 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41894 [200]: GET /api.php/pujas/?filter=id_producto,eq,13
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41894 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41916 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41900 [200]: GET /api.php/pujas?filter=id_producto,eq,13
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41900 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41932 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41916 [200]: GET /api.php/imagenes?filter=id_producto,eq,14
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41916 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41938 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41932 [200]: GET /api.php/pujas/?filter=id_producto,eq,14
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41932 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41952 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41938 [200]: GET /api.php/pujas?filter=id_producto,eq,14
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41938 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41968 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41952 [200]: GET /api.php/imagenes?filter=id_producto,eq,15
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41952 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41970 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41968 [200]: GET /api.php/pujas/?filter=id_producto,eq,15
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41968 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41986 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41970 [200]: GET /api.php/pujas?filter=id_producto,eq,15
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41970 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41988 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41986 [200]: GET /api.php/imagenes?filter=id_producto,eq,16
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41986 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41996 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41988 [200]: GET /api.php/pujas/?filter=id_producto,eq,16
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41988 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42010 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41996 [200]: GET /api.php/pujas?filter=id_producto,eq,16
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:41996 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42024 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42010 [200]: GET /api.php/imagenes?filter=id_producto,eq,17
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42010 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42030 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42024 [200]: GET /api.php/pujas/?filter=id_producto,eq,17
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42024 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42040 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42030 [200]: GET /api.php/pujas?filter=id_producto,eq,17
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42030 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42044 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42040 [200]: GET /api.php/imagenes?filter=id_producto,eq,18
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42040 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42060 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42044 [200]: GET /api.php/pujas/?filter=id_producto,eq,18
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42044 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42076 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42060 [200]: GET /api.php/pujas?filter=id_producto,eq,18
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42060 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42082 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42076 [200]: GET /api.php/imagenes?filter=id_producto,eq,20
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42076 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42090 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42082 [200]: GET /api.php/pujas/?filter=id_producto,eq,20
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42082 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42104 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42090 [200]: GET /api.php/pujas?filter=id_producto,eq,20
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42090 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42108 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42104 [200]: GET /api.php/imagenes?filter=id_producto,eq,21
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42104 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42110 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42108 [200]: GET /api.php/pujas/?filter=id_producto,eq,21
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42108 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42116 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42110 [200]: GET /api.php/pujas?filter=id_producto,eq,21
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42110 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42120 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42116 [200]: GET /api.php/imagenes?filter=id_producto,eq,22
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42116 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42136 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42120 [200]: GET /api.php/pujas/?filter=id_producto,eq,22
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42120 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42144 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42136 [200]: GET /api.php/pujas?filter=id_producto,eq,22
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42136 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42160 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42144 [200]: GET /api.php/imagenes?filter=id_producto,eq,23
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42144 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42164 Accepted
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42160 [200]: GET /api.php/pujas/?filter=id_producto,eq,23
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42160 Closing
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42164 [200]: GET /api.php/pujas?filter=id_producto,eq,23
+[Sun Jun  8 15:41:07 2025] 127.0.0.1:42164 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60624 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60636 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60624 [200]: GET /api.php/productos/
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60624 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60636 [200]: GET /api.php/categorias
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60636 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60652 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60660 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60662 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60678 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60686 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60692 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60652 [200]: GET /api.php/imagenes?filter=id_producto,eq,1
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60652 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60660 [200]: GET /api.php/pujas/?filter=id_producto,eq,1
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60660 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60662 [200]: GET /api.php/pujas?filter=id_producto,eq,1
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60662 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60678 [200]: GET /api.php/imagenes?filter=id_producto,eq,2
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60678 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60686 [200]: GET /api.php/pujas/?filter=id_producto,eq,2
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60686 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60692 [200]: GET /api.php/pujas?filter=id_producto,eq,2
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60692 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60708 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60714 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60708 [200]: GET /api.php/imagenes?filter=id_producto,eq,3
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60708 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60726 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60714 [200]: GET /api.php/pujas/?filter=id_producto,eq,3
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60714 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60742 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60726 [200]: GET /api.php/pujas?filter=id_producto,eq,3
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60726 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60748 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60742 [200]: GET /api.php/imagenes?filter=id_producto,eq,4
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60742 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60752 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60748 [200]: GET /api.php/pujas/?filter=id_producto,eq,4
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60748 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60764 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60752 [200]: GET /api.php/pujas?filter=id_producto,eq,4
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60752 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60774 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60764 [200]: GET /api.php/imagenes?filter=id_producto,eq,5
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60764 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60780 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60774 [200]: GET /api.php/pujas/?filter=id_producto,eq,5
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60774 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60792 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60780 [200]: GET /api.php/pujas?filter=id_producto,eq,5
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60780 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60806 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60792 [200]: GET /api.php/imagenes?filter=id_producto,eq,6
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60792 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60814 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60806 [200]: GET /api.php/pujas/?filter=id_producto,eq,6
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60806 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60818 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60814 [200]: GET /api.php/pujas?filter=id_producto,eq,6
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60814 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60824 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60818 [200]: GET /api.php/imagenes?filter=id_producto,eq,7
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60818 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60836 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60824 [200]: GET /api.php/pujas/?filter=id_producto,eq,7
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60824 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60840 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60836 [200]: GET /api.php/pujas?filter=id_producto,eq,7
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60836 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60848 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60840 [200]: GET /api.php/imagenes?filter=id_producto,eq,8
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60840 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60852 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60848 [200]: GET /api.php/pujas/?filter=id_producto,eq,8
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60848 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60862 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60852 [200]: GET /api.php/pujas?filter=id_producto,eq,8
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60852 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60878 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60862 [200]: GET /api.php/imagenes?filter=id_producto,eq,9
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60862 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60888 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60878 [200]: GET /api.php/pujas/?filter=id_producto,eq,9
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60878 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60898 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60888 [200]: GET /api.php/pujas?filter=id_producto,eq,9
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60888 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60910 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60898 [200]: GET /api.php/imagenes?filter=id_producto,eq,10
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60898 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60922 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60910 [200]: GET /api.php/pujas/?filter=id_producto,eq,10
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60910 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60928 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60922 [200]: GET /api.php/pujas?filter=id_producto,eq,10
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60922 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60936 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60928 [200]: GET /api.php/imagenes?filter=id_producto,eq,11
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60928 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60946 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60936 [200]: GET /api.php/pujas/?filter=id_producto,eq,11
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60936 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60956 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60946 [200]: GET /api.php/pujas?filter=id_producto,eq,11
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60946 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60960 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60956 [200]: GET /api.php/imagenes?filter=id_producto,eq,12
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60956 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60970 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60960 [200]: GET /api.php/pujas/?filter=id_producto,eq,12
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60960 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60984 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60970 [200]: GET /api.php/pujas?filter=id_producto,eq,12
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60970 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60990 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60984 [200]: GET /api.php/imagenes?filter=id_producto,eq,13
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60984 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60994 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60990 [200]: GET /api.php/pujas/?filter=id_producto,eq,13
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60990 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32770 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60994 [200]: GET /api.php/pujas?filter=id_producto,eq,13
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:60994 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32782 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32770 [200]: GET /api.php/imagenes?filter=id_producto,eq,14
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32770 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32784 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32782 [200]: GET /api.php/pujas/?filter=id_producto,eq,14
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32782 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32796 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32784 [200]: GET /api.php/pujas?filter=id_producto,eq,14
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32784 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32798 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32796 [200]: GET /api.php/imagenes?filter=id_producto,eq,15
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32796 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32808 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32798 [200]: GET /api.php/pujas/?filter=id_producto,eq,15
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32798 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32824 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32808 [200]: GET /api.php/pujas?filter=id_producto,eq,15
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32808 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32830 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32824 [200]: GET /api.php/imagenes?filter=id_producto,eq,16
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32824 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32840 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32830 [200]: GET /api.php/pujas/?filter=id_producto,eq,16
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32830 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32850 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32840 [200]: GET /api.php/pujas?filter=id_producto,eq,16
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32840 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32852 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32850 [200]: GET /api.php/imagenes?filter=id_producto,eq,17
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32850 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32862 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32852 [200]: GET /api.php/pujas/?filter=id_producto,eq,17
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32852 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32870 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32862 [200]: GET /api.php/pujas?filter=id_producto,eq,17
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32862 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32884 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32870 [200]: GET /api.php/imagenes?filter=id_producto,eq,18
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32870 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32894 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32884 [200]: GET /api.php/pujas/?filter=id_producto,eq,18
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32884 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32906 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32894 [200]: GET /api.php/pujas?filter=id_producto,eq,18
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32894 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32910 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32906 [200]: GET /api.php/imagenes?filter=id_producto,eq,20
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32906 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32926 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32910 [200]: GET /api.php/pujas/?filter=id_producto,eq,20
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32910 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32938 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32926 [200]: GET /api.php/pujas?filter=id_producto,eq,20
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32926 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32940 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32938 [200]: GET /api.php/imagenes?filter=id_producto,eq,21
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32938 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32954 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32940 [200]: GET /api.php/pujas/?filter=id_producto,eq,21
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32940 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32966 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32954 [200]: GET /api.php/pujas?filter=id_producto,eq,21
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32954 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32970 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32966 [200]: GET /api.php/imagenes?filter=id_producto,eq,22
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32966 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32974 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32970 [200]: GET /api.php/pujas/?filter=id_producto,eq,22
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32970 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32986 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32974 [200]: GET /api.php/pujas?filter=id_producto,eq,22
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32974 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32998 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32986 [200]: GET /api.php/imagenes?filter=id_producto,eq,23
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32986 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:33014 Accepted
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32998 [200]: GET /api.php/pujas/?filter=id_producto,eq,23
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:32998 Closing
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:33014 [200]: GET /api.php/pujas?filter=id_producto,eq,23
+[Sun Jun  8 16:09:44 2025] 127.0.0.1:33014 Closing
